@@ -1,0 +1,292 @@
+# =========================================================
+# 📌 PORTFOLIO DATA CONFIGURATION FILE
+# =========================================================
+# This YAML file controls the entire portfolio dynamically.
+# You only need to edit this file to update content.
+#
+# =========================================================
+# 📚 TABLE OF CONTENTS
+# =========================================================
+# 1. home        → Homepage settings
+# 2. personal    → Basic personal info
+# 3. hero        → Landing section content
+# 4. stats       → Quick stats display
+# 5. about       → About section
+# 6. education   → Academic details
+# 7. experience  → Work experience
+# 8. skills      → Skill categories
+# 9. techStack   → Tools & technologies
+# 10. services   → What you offer
+# 11. projects   → Portfolio projects
+# 12. emailjs    → Contact form config
+# 13. resume     → Resume button config
+#
+# =========================================================
+# 🧠 USE CASE
+# =========================================================
+# 👉 Edit this file → Portfolio updates automatically
+# 👉 Used by chatbot (RAG context)
+# 👉 Used by UI (cards, sections, filters)
+# =========================================================
+# =========================================================
+# 📌 PORTFOLIO CONFIG (COLLAPSIBLE VERSION)
+# =========================================================
+
+# region HOME 
+home:
+  featuredProjectsCount: 4
+# endregion
+
+# region PERSONAL
+personal:
+  name: "Shivansh Vyas"
+  title: "Data Scientist | AI Engineer"
+  email: "shivanshvyas1729@example.com"
+  phone: "+91 6377099494"
+  linkedin: "https://linkedin.com/in/shivanshvyas"
+  github: "https://github.com/Shivanshvyas1729"
+  location: "Bhilwara, Rajasthan, India"
+  profileImage:
+    type: "url"
+    value: "https://i.ibb.co/rKBnjv95/shivansh.jpg"
+    position: "right"
+# endregion
+
+# region HERO
+hero:
+  headline:
+    - "Building Scalable"
+    - "AI Systems"
+    - "That Create"
+    - "Real Impact..."
+  description: "I specialize in designing and deploying intelligent systems..."
+  ctas:
+  
+    - label: "View Projects" 
+      #do not touch this link
+      link: "#projects"
+    - label: "Contact Me"
+    #do not touch this link
+      link: "#contact"
+# endregion
+
+# region STATS
+stats:
+  projectsCount: 6
+  experienceCount: 1
+# endregion
+
+# region ABOUT
+about:
+  description: "Final-year B.Tech CS (IoT) student at MLVIT, focused on developing impactful end-to-end solutions. Associated with TILS Edu, currently advancing in AI/ML through PW Skills Data Science and mentorship from Krish Naik. Continuously learning and open to constructive feedback"
+  # it is the light rotating part 
+  marqueeTexts:
+    - "WE BUILD AI SYSTEMS"
+    - "WE CREATE INTELLIGENT PRODUCTS"
+    - "WE AUTOMATE REAL WORLD PROBLEMS"
+
+  certifications:
+    - "Data Science with Generative AI – PW Skills"
+    - "Advanced Data Science Programs – Krish Naik"
+    - "Machine Learning Learning Plan Certification – Amazon Web Services"
+    - "Open Source Conference (OSSC 2025) Participation – The Linux Foundation"
+    - "Bharatiya Antariksh Hackathon 2025 – Certificate of Acknowledgement by Indian Space Research Organisation"
+# endregion
+
+# region EDUCATION
+education:
+  - degree: "B.Tech in Computer Science (iot)"
+    institution: "MLV Textile & Engineering College, Bhilwara"
+    year: "2023 – 2027"
+    description: "Specializing in Data Science & AI Engineering"
+
+  - degree: "Data Science with Generative AI"
+    institution: "PW Skills (Online)"
+    year: "Oct 2024 – Jan 2026"
+    description: "Focused on ML & GenAI"
+# endregion
+
+# region EXPERIENCE
+# experience:
+#   - title: "AI Engineering Intern"
+#     company: "Company Name"
+#     duration: "2025"
+#     description: "Building ML pipelines..."
+# endregion
+
+# region SKILLS
+skills:
+  categories:
+    - title: "Core AI/ML"
+      items:
+        - "Machine Learning"
+        - "Deep Learning"
+        - "NLP"
+        - "Computer Vision"
+        
+        - "Data Analysis"
+
+    - title: "Advanced AI"
+      items:
+        - "Generative AI"
+        - "Agentic AI"
+        - "RAG"
+
+    - title: "Tools & Infra"
+      items:
+        - "Docker"
+        - "Flask"
+        
+        - "FastAPI"
+        - "Git"
+        - "Github"
+# endregion
+
+# region TECH STACK
+techStack:
+  featured:
+    - "Python"
+    - "Scikit-learn"
+    - "TensorFlow"
+    - "PyTorch"
+    - "LangChain"
+    - "Docker"
+    - "FastAPI"
+    - "Streamlit"
+    - "Mlflow"
+    - "RAG"
+
+  all:
+  - "Python"
+  - "Pandas"
+  - "NumPy"
+  - "Scikit-learn"
+  - "TensorFlow"
+  - "PyTorch"
+ 
+  
+
+  - "LangChain"
+  - "MLflow"
+ 
+
+  - "FastAPI"
+  - "Streamlit"
+
+  - "Docker"
+  
+
+ 
+
+  - "MySQL"
+  - "MongoDB"
+
+
+  - "Git"
+  - "GitHub"
+ 
+
+  - "AWS"
+
+# endregion
+
+# region SERVICES
+services:
+  - title: "AI & ML Solutions"
+    description: "End-to-end intelligent systems"
+    icon: "Brain"
+
+  - title: "Data Science Projects"
+    description: "Analysis, modeling, visualization"
+    icon: "BarChart3"
+
+  - title: "Generative AI Apps"
+    description: "RAG, chatbots, LLM apps"
+    icon: "Sparkles"
+
+  - title: "Intelligent Automation"
+    description: "AI-driven workflows"
+    icon: "Zap"
+# endregion
+
+# region PROJECTS
+projects:
+  - id: 1
+    title: "🎧 Automated YouTube Mixtape Creation"
+    category:
+      - "Generative AI"
+      - "Python"
+    description: "Automated system that creates mixtapes..."
+    media:
+      - type: "image"
+        url: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485"
+    tech:
+      - "Python"
+      - "Streamlit"
+      - "NLP"
+    github: "https://github.com/..."
+    live: "https://automated-youtube-mixtape-creation.streamlit.app/"
+    featured: true
+    impact: "Zero manual editing"
+
+  - id: 2
+    title: "🥤 Drink Quality Prediction System"
+    category:
+      - "Machine Learning"
+      - "MLOps"
+      - "Python"
+    description: "End-to-end machine learning pipeline for predicting drink quality with automated CI/CD deployment using Docker and AWS."
+    media:
+      - type: "image"
+        url: "https://labelyourdata.com/cms/wp-content/uploads/2023/10/machine-learning-for-wine-quality-prediction_1.jpg"
+    tech:
+      - "Python"
+      - "Scikit-learn"
+      - "Docker"
+      - "AWS EC2"
+      - "AWS ECR"
+      - "GitHub Actions"
+      - "Streamlit"
+      - "Pandas"
+      - "YAML"
+    github: "https://github.com/Shivanshvyas1729/drink_quality_prediction"
+    live: "https://drinkqualityprediction.streamlit.app/"
+    featured: true
+    impact: "Automated ML pipeline with production-ready CI/CD deployment"
+
+ 
+  - id: 3
+    title: "🌦 Thunderstorm Forecasting System"
+    category:
+      - "Machine Learning"
+      - "Weather Prediction"
+      - "Python"
+    description: "Machine learning-based system for real-time thunderstorm prediction using atmospheric indices, featuring a FastAPI backend and interactive Streamlit interface."
+    media:
+      - type: "image"
+        url: "https://www.reconnectwithnature.org/getContentAsset/a2de823c-a1ae-491e-a47b-f373af403d4e/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/Thunderstorm-lightning-strike-shutterstock-1.jpg?language=en-US"
+    tech:
+      - "Python"
+      - "Scikit-learn"
+      - "FastAPI"
+      - "Streamlit"
+      - "Pandas"
+      - "NumPy"
+      - "Imbalanced-learn"
+    github: "https://github.com/Shivanshvyas1729/Thunderstrom_forcast"
+    live: "https://thunderstromforcast.streamlit.app/"
+    featured: true
+    impact: "Real-time thunderstorm prediction with optimized ML model and interactive UI"
+
+# endregion
+
+# region EMAILJS
+emailjs:
+  serviceId: "service_3rnk76r"
+  templateId: "template_4519p5r"
+  publicKey: "pQnzlnAMoWVOM5DTk"
+# endregion
+
+# region RESUME
+resume:
+  url: "https://shorturl.at/rlKAY"

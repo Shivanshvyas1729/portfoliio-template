@@ -282,9 +282,9 @@ projects:
 
 # region EMAILJS
 emailjs:
-  serviceId: "service_3rnk76r"
-  templateId: "template_4519p5r"
-  publicKey: "pQnzlnAMoWVOM5DTk"
+  serviceId: ""
+  templateId: ""
+  publicKey: ""
 # endregion
 
 # region RESUME
